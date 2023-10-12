@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbe4ba10.css",
+    "main.js": "/static/js/main.a5de514a.js",
+    "static/media/python.jpg": "/static/media/python.d25dddaaec9a4bb79bc2.jpg",
+    "static/media/datascience.jpg": "/static/media/datascience.9324e85b103414a1bf26.jpg",
+    "static/media/stats2.png": "/static/media/stats2.17f3af163f343278560d.png",
+    "index.html": "/index.html",
+    "main.bbe4ba10.css.map": "/static/css/main.bbe4ba10.css.map",
+    "main.a5de514a.js.map": "/static/js/main.a5de514a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe4ba10.css",
+    "static/js/main.a5de514a.js"
+  ]
+}
