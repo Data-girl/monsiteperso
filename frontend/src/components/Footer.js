@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <Container fluid="true" className="text-center py-5 ">
+        <Container fluid="true" className="text-center ">
           <p style={{ color: "black" }}>
             <strong>
               "L'éducation est l'arme la plus tranchante pour changer le

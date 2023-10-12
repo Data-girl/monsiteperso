@@ -3,13 +3,15 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import Table from "react-bootstrap/Table";
+import Image from "react-bootstrap/Image";
+
 import Accordion from "react-bootstrap/Accordion";
 
 // Images
 import stats2 from "../medias/stats2.png";
 import python from "../medias/python.jpg";
 import datascience from "../medias/datascience.jpg";
+import jessy from "../medias/jessy.png";
 
 // Styling
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -20,24 +22,30 @@ const Presentation = () => {
       {/* SECTION 1 */}
       <br></br>
       <Row>
-        <h1 className="text-center py-5">Quelques mots de présentation </h1>
-        <Col className="text-center ">
-          <p>
+        <h1 className="text-center py-5">Quelques mots de présentation ✒️</h1>
+        <Col xs={6} md={3}>
+          <Image className="center-element" src={jessy} thumbnail />
+        </Col>
+        <Col xs={12} md={8} className="center-element">
+          <p class="justify-content">
             Bienvenue sur ma page personnelle, je m'appelle <b>Jessy PATRICE</b>
             .
             <br />
             <br />
-            J'ai un parcours professionnel et universitaire pluridisciplinaire.
-            Au delà de mes compétences en data science, notamment sur le machine
-            learning, le deep learning grâce au langage de programmation python,
-            je suis diplomée d'un Doctorat en Sciences humaines et
-            sociales(majeure en statistiques), d'un PostDoc et d'une
-            certification professionnelle de Data scientist.
-            <br />
+            <p>
+              J'ai un parcours professionnel et universitaire
+              pluridisciplinaire. Au delà de mes compétences en data science,
+              notamment dans le domaine du machine learning ou du deep learning
+              grâce au langage de programmation python, je suis diplomée d'un
+              Doctorat en Sciences humaines et sociales(majeure en
+              statistiques), d'un PostDoc et d'une certification professionnelle
+              de Data scientist.
+            </p>
             Tout au long de mon parcours, j'ai acquis des compétences en
             statistiques, en sociologie et en programmation informatique.
           </p>
         </Col>
+        <Col></Col>
       </Row>
 
       {/* SECTION 2 */}
@@ -95,9 +103,9 @@ const Presentation = () => {
           </Card>
         </Col>
       </Row>
-      <h1 className="text-center py-5">Mes expériences professionnelles </h1>
+      <h1 className="text-center py-5">Mes expériences professionnelles 💼</h1>
 
-      {/* SECTION 2 */}
+      {/* SECTION 3 */}
       <Accordion defaultActiveKey={["0"]} alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
@@ -170,63 +178,9 @@ const Presentation = () => {
         </Accordion.Item>
       </Accordion>
 
-      <h1 className="text-center py-5">Mes compétences techniques </h1>
-
-      <Table
-        striped
-        bordered
-        hover
-        variant="light"
-        className="text-center py-3"
-        size="sm"
-      >
-        <thead>
-          <tr>
-            <th>Langage de programmation</th>
-            <td>Python / SQL</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Data analyse</th>
-            <td>Pandas / Numpy</td>
-          </tr>
-          <tr>
-            <th>DataViz</th>
-            <td>Matplotlib / Plotly / Seaborn</td>
-          </tr>
-          <tr>
-            <th>Machine Learning</th>
-            <td>Scikit-learn / Xgboost / LightGBM</td>
-          </tr>
-          <tr>
-            <th>Deep Learning</th>
-            <td>TensorFlow</td>
-          </tr>
-          <tr>
-            <th>Big data</th>
-            <td>Pyspark / AWS</td>
-          </tr>
-          <tr>
-            <th>Software Engineering</th>
-            <td> FastAPI / Django / Streamlit / React </td>
-          </tr>
-          <tr>
-            <th>CI/CD</th>
-            <td>
-              Git / GitHub actions / Docker / Tests unitaires / Azure web app{" "}
-            </td>
-          </tr>
-          <tr>
-            <th>Anglais </th>
-            <td> Niveau intermédiaire B2 </td>
-          </tr>
-        </tbody>
-      </Table>
-
-      {/* SECTION 3 */}
+      {/* SECTION 4 */}
       <Row>
-        <h1 className="text-center py-5">Mes diplômes et formations </h1>
+        <h1 className="text-center py-5">Mes diplômes et formations 🎓 </h1>
         <Col className="text-center">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
@@ -298,6 +252,7 @@ const Presentation = () => {
               </Card.Text>
             </Card.Body>
           </Card>
+          <br></br>
         </Col>
       </Row>
     </Container>

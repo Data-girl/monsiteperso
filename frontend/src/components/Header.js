@@ -17,8 +17,12 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="/">Accueil</Navbar.Brand>
           <Nav className="me-auto">
-            <LinkContainer to="/application">
-              <Nav.Link>Démos</Nav.Link>
+            <LinkContainer to="/projets">
+              <Nav.Link>Mes projets</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to="/loisirs">
+              <Nav.Link>Loisirs</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
               <Nav.Link>Contact</Nav.Link>

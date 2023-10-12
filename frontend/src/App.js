@@ -9,9 +9,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 // Pages
-import Application from "./screens/Application";
+import Projets from "./screens/Projets";
 import Contact from "./screens/Contact";
 import Presentation from "./screens/Presentation";
+import Loisirs from "./screens/Loisirs";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Presentation />} />
-            <Route path="/application" element={<Application />} />
+            <Route path="/projets" element={<Projets />} />
+            <Route path="/loisirs" element={<Loisirs />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

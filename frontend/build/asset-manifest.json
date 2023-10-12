@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.bbe4ba10.css",
-    "main.js": "/static/js/main.a5de514a.js",
+    "main.js": "/static/js/main.28b194e5.js",
+    "static/media/environnement2.png": "/static/media/environnement2.4f9e5b58989b8061c1c9.png",
+    "static/media/cancer.jpeg": "/static/media/cancer.e9ed533a6efb12089503.jpeg",
+    "static/media/jessy.png": "/static/media/jessy.9b2420f3420bbfb547b6.png",
+    "static/media/haltere.png": "/static/media/haltere.3884e11557ee7d7a49ff.png",
+    "static/media/piano.png": "/static/media/piano.ffcbca1d6ea89e820e21.png",
+    "static/media/credit2.png": "/static/media/credit2.b09901f3d2d8e8614477.png",
     "static/media/python.jpg": "/static/media/python.d25dddaaec9a4bb79bc2.jpg",
     "static/media/datascience.jpg": "/static/media/datascience.9324e85b103414a1bf26.jpg",
     "static/media/stats2.png": "/static/media/stats2.17f3af163f343278560d.png",
     "index.html": "/index.html",
     "main.bbe4ba10.css.map": "/static/css/main.bbe4ba10.css.map",
-    "main.a5de514a.js.map": "/static/js/main.a5de514a.js.map"
+    "main.28b194e5.js.map": "/static/js/main.28b194e5.js.map"
   },
   "entrypoints": [
     "static/css/main.bbe4ba10.css",
-    "static/js/main.a5de514a.js"
+    "static/js/main.28b194e5.js"
   ]
 }
