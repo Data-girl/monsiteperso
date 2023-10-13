@@ -8,7 +8,13 @@ import piano2 from "../medias/piano2.png";
 import haltere from "../medias/haltere.png";
 import environnement2 from "../medias/environnement2.png";
 
+import { useEffect } from "react";
+
 const Loisirs = () => {
+  // Back to the top when loading page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Container>
       <br></br>

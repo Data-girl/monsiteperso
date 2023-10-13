@@ -5,12 +5,17 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
+import { useEffect } from "react";
 
 // Images
 import credit2 from "../medias/credit2.png";
 import cancer from "../medias/cancer.jpeg";
 
 const Application = () => {
+  // Back to the top when loading page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Container>
       <br></br>
@@ -18,7 +23,9 @@ const Application = () => {
       <br></br>
       <Row className="center-element">
         {" "}
-        <h1 className="text-center py-5">Démos de deux API ⌨️</h1>
+        <Col>
+          <h1 className="text-center py-5">Démos de deux API ⌨️</h1>
+        </Col>
       </Row>
       <Row className="text-center">
         {/* CARD 1 */}

@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
 
 import Accordion from "react-bootstrap/Accordion";
+import { useEffect } from "react";
 
 // Images
 import stats2 from "../medias/stats2.png";
@@ -17,6 +18,10 @@ import jessy from "../medias/jessy.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Presentation = () => {
+  // Back to the top when loading page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Container fluid="true">
       {/* SECTION 1 */}

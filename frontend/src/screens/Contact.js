@@ -3,10 +3,14 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-
+import { useEffect } from "react";
 // Image
 
 const Contact = () => {
+  // Back to the top when loading page
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Container className="text-center">
       <br />
