@@ -11,6 +11,7 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <Container className="text-center">
       <br />
@@ -27,6 +28,7 @@ const Contact = () => {
       <br></br>
       <Button
         variant="success"
+        target="_blank"
         href="https://drive.google.com/file/d/1YwHEcVSYbzDzmhCH9xkPc6WOgcP-A_Z5/view?usp=drive_link"
       >
         Télécharger mon CV

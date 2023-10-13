@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bbe4ba10.css",
-    "main.js": "/static/js/main.39d3d0d8.js",
+    "main.js": "/static/js/main.8b98487a.js",
     "static/media/environnement2.png": "/static/media/environnement2.4f9e5b58989b8061c1c9.png",
     "static/media/cancer.jpeg": "/static/media/cancer.e9ed533a6efb12089503.jpeg",
     "static/media/jessy.png": "/static/media/jessy.9b2420f3420bbfb547b6.png",
@@ -14,10 +14,10 @@
     "static/media/logo_small.png": "/static/media/logo_small.a0abe0cdf2887178f326.png",
     "index.html": "/index.html",
     "main.bbe4ba10.css.map": "/static/css/main.bbe4ba10.css.map",
-    "main.39d3d0d8.js.map": "/static/js/main.39d3d0d8.js.map"
+    "main.8b98487a.js.map": "/static/js/main.8b98487a.js.map"
   },
   "entrypoints": [
     "static/css/main.bbe4ba10.css",
-    "static/js/main.39d3d0d8.js"
+    "static/js/main.8b98487a.js"
   ]
 }

@@ -15,6 +15,7 @@ const Loisirs = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <Container>
       <br></br>
