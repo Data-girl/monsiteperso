@@ -181,7 +181,7 @@ const Presentation = () => {
 
       {/* SECTION 4 */}
       <Row>
-        <h1 className="text-center py-5">Mes diplômes et formations 🎓 </h1>
+        <h1 className="text-center py-5">Mes diplômes et formations🎓</h1>
         <Col className="center-element">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
