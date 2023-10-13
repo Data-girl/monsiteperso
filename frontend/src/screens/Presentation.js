@@ -185,18 +185,18 @@ const Presentation = () => {
         <Col className="center-element">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Title>
+              <Card.Title className="text-center">
                 Doctorat en Sciences humaines et sociales (majeure en
                 statistiques)
               </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
+              <Card.Subtitle className="text-center mb-2 text-muted">
                 2013-2016
               </Card.Subtitle>
-              <Card.Subtitle>
+              <Card.Subtitle className="text-center">
                 Université des Antilles/Paris Sorbonne
               </Card.Subtitle>
               <br />
-              <Card.Text>
+              <Card.Text className="text-center">
                 Ma thèse de Doctorat, réalisée sur trois ans, s'est basée sur
                 des questions identitaires, sociales et culturelles auprès des
                 Antillais installés en France et m'a permis de mener une enquête
@@ -210,15 +210,17 @@ const Presentation = () => {
         <Col className="center-element py-3">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Title>
+              <Card.Title className="text-center">
                 Master en Sciences de l'information et de la communication
               </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
+              <Card.Subtitle className=" text-center mb-2 text-muted">
                 2010-2012
               </Card.Subtitle>
-              <Card.Subtitle>Université des Antilles</Card.Subtitle>
+              <Card.Subtitle className="text-center">
+                Université des Antilles
+              </Card.Subtitle>
               <br />
-              <Card.Text>
+              <Card.Text className="text-center">
                 Mon mémoire a porté sur la communication autour du parloir d'un
                 centre pénitentiaire, avec un regard porté sur la population
                 féminine. Ma démarche s'est centrée sur les interactions et les
@@ -232,21 +234,21 @@ const Presentation = () => {
         <Col className="center-element py-3">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
-              <Card.Title>
+              <Card.Title className="text-center">
                 Certification de
                 <br />
                 Data scientist
                 <br />
                 RNCP de niveau 7
               </Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
+              <Card.Subtitle className=" text-center mb-2 text-muted">
                 2022-2023
               </Card.Subtitle>
-              <Card.Subtitle>
+              <Card.Subtitle className="text-center">
                 OPENCLASSROOM en partenariat avec Centrale Supélec
               </Card.Subtitle>
               <br />
-              <Card.Text>
+              <Card.Text className="text-center">
                 Les 8 projets m'ont permis de : Préparer les données en vue de
                 l’analyse - Programmer des algorithmes de Machine Learning à
                 l’aide du langage Python - Déployer des algorithmes dans le
