@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bbe4ba10.css",
-    "main.js": "/static/js/main.4a8138a1.js",
+    "main.js": "/static/js/main.632115f4.js",
     "static/media/environnement2.png": "/static/media/environnement2.4f9e5b58989b8061c1c9.png",
     "static/media/cancer.jpeg": "/static/media/cancer.e9ed533a6efb12089503.jpeg",
     "static/media/jessy.png": "/static/media/jessy.9b2420f3420bbfb547b6.png",
@@ -11,12 +11,13 @@
     "static/media/python.jpg": "/static/media/python.d25dddaaec9a4bb79bc2.jpg",
     "static/media/datascience.jpg": "/static/media/datascience.9324e85b103414a1bf26.jpg",
     "static/media/stats2.png": "/static/media/stats2.17f3af163f343278560d.png",
+    "static/media/logo_small.png": "/static/media/logo_small.a0abe0cdf2887178f326.png",
     "index.html": "/index.html",
     "main.bbe4ba10.css.map": "/static/css/main.bbe4ba10.css.map",
-    "main.4a8138a1.js.map": "/static/js/main.4a8138a1.js.map"
+    "main.632115f4.js.map": "/static/js/main.632115f4.js.map"
   },
   "entrypoints": [
     "static/css/main.bbe4ba10.css",
-    "static/js/main.4a8138a1.js"
+    "static/js/main.632115f4.js"
   ]
 }

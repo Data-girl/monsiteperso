@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
+import logo_small from "../img/logo_small.png";
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
               <Navbar.Brand href="">
                 <img
                   alt=""
-                  src="logo_small.png"
+                  src={logo_small}
                   width="30"
                   height="30"
                   className="d-inline-block align-top"
