@@ -12,6 +12,8 @@ const Loisirs = () => {
   return (
     <Container>
       <br></br>
+      <br></br>
+      <br></br>
       <Row className="center-element py-5">
         <h1 className="text-center">Mes loisirs 🧩</h1>
         <br></br>

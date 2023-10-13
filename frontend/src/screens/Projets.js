@@ -13,12 +13,12 @@ import cancer from "../medias/cancer.jpeg";
 const Application = () => {
   return (
     <Container>
-      <br />
+      <br></br>
+      <br></br>
+      <br></br>
       <Row className="center-element">
         {" "}
-        <Col>
-          <h1 className="text-center py-5">Démos de deux API ⌨️</h1>
-        </Col>
+        <h1 className="text-center py-5">Démos de deux API ⌨️</h1>
       </Row>
       <Row className="text-center">
         {/* CARD 1 */}
@@ -50,7 +50,6 @@ const Application = () => {
 
         {/* CARD 2 */}
         <Col className="center-element py-5 ">
-          {" "}
           <Card style={{ width: "20rem" }}>
             <Card.Img variant="top" src={cancer} />
             <Card.Body>

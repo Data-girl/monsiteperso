@@ -21,6 +21,8 @@ const Presentation = () => {
     <Container fluid="true">
       {/* SECTION 1 */}
       <br></br>
+      <br></br>
+      <br></br>
       <Row xs={12} md={8} className="center-element">
         <h1 className="text-center py-5">Quelques mots de présentation ✒️</h1>
         <Col xs={6} md={3} className="center-element">

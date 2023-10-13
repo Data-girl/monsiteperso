@@ -10,6 +10,8 @@ const Contact = () => {
   return (
     <Container className="text-center">
       <br />
+      <br />
+      <br />
       <h1 className="text-center py-5">Pour me contacter :</h1>
       <Row className="py-5">
         <Col className="text-center"></Col>
