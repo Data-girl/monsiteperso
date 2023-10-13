@@ -49,7 +49,7 @@ const Application = () => {
         </Col>
 
         {/* CARD 2 */}
-        <Col className="center-element ">
+        <Col className="center-element py-5 ">
           {" "}
           <Card style={{ width: "20rem" }}>
             <Card.Img variant="top" src={cancer} />
@@ -74,7 +74,7 @@ const Application = () => {
           </Card>
         </Col>
 
-        <h1 className="text-center py-5">Mes compétences techniques ⚙️ </h1>
+        <h1 className="text-center py-3">Mes compétences techniques ⚙️ </h1>
 
         <Table
           striped
@@ -129,8 +129,8 @@ const Application = () => {
         </Table>
       </Row>
       <br></br>
-      <Row className="center-element py-5">
-        <h1 className="text-center">Acquisition de nouvelles aptitudes ✔️</h1>
+      <Row className="center-element py-3">
+        <h1 className="text-center">Acquisition de nouvelles aptitudes✔️</h1>
         <Col>
           <h4 className="text-center">
             {" "}
@@ -142,6 +142,7 @@ const Application = () => {
             <br></br>
             <br></br>🔵 Formation prévisionnelle de Data engineer
           </h4>
+          <br></br>
         </Col>
       </Row>
     </Container>

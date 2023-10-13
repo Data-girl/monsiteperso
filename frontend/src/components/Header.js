@@ -15,19 +15,36 @@ const Header = () => {
         collapseOnSelect
       >
         <Container>
-          <Navbar.Brand href="/">Accueil</Navbar.Brand>
-          <Nav className="me-auto">
-            <LinkContainer to="/projets">
-              <Nav.Link>Mes projets</Nav.Link>
-            </LinkContainer>
+          <Navbar>
+            <Container>
+              <Navbar.Brand href="">
+                <img
+                  alt=""
+                  src="logo_small.png"
+                  width="30"
+                  height="30"
+                  className="d-inline-block align-top"
+                />{" "}
+              </Navbar.Brand>
+            </Container>
+          </Navbar>
 
-            <LinkContainer to="/loisirs">
-              <Nav.Link>Loisirs</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/contact">
-              <Nav.Link>Contact</Nav.Link>
-            </LinkContainer>
-          </Nav>
+          <Navbar.Brand href="/"> Accueil</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse className="justify-content-end">
+            <Nav className="me-auto">
+              <LinkContainer to="/projets">
+                <Nav.Link>Mes projets</Nav.Link>
+              </LinkContainer>
+
+              <LinkContainer to="/loisirs">
+                <Nav.Link>Loisirs</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+                <Nav.Link>Contact</Nav.Link>
+              </LinkContainer>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </Container>

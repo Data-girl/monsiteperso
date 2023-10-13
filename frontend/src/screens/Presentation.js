@@ -21,43 +21,44 @@ const Presentation = () => {
     <Container fluid="true">
       {/* SECTION 1 */}
       <br></br>
-      <Row>
+      <Row xs={12} md={8} className="center-element">
         <h1 className="text-center py-5">Quelques mots de présentation ✒️</h1>
-        <Col xs={6} md={3}>
+        <Col xs={6} md={3} className="center-element">
           <Image className="center-element" src={jessy} thumbnail />
         </Col>
+
         <Col xs={12} md={8} className="center-element">
-          <p class="justify-content">
+          <p class="text-center">
             Bienvenue sur ma page personnelle, je m'appelle <b>Jessy PATRICE</b>
             .
             <br />
             <br />
-            <p>
+            <p className="text-center">
               J'ai un parcours professionnel et universitaire
               pluridisciplinaire. Au delà de mes compétences en data science,
               notamment dans le domaine du machine learning ou du deep learning
               grâce au langage de programmation python, je suis diplomée d'un
               Doctorat en Sciences humaines et sociales(majeure en
               statistiques), d'un PostDoc et d'une certification professionnelle
-              de Data scientist.
+              de Data scientist. Tout au long de mon parcours, j'ai acquis des
+              compétences en statistiques, en sociologie et en programmation
+              informatique.
             </p>
-            Tout au long de mon parcours, j'ai acquis des compétences en
-            statistiques, en sociologie et en programmation informatique.
           </p>
         </Col>
         <Col></Col>
       </Row>
 
       {/* SECTION 2 */}
-      <Row>
+      <Row className="center-element py-3">
         {/* CARD 1 */}
-        <Col className="text-center py-5">
+        <Col className=" center-element py-3">
           {" "}
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={stats2} />
             <Card.Body>
-              <Card.Title>Math/Stats</Card.Title>
-              <Card.Text>
+              <Card.Title className="text-center">Math/Stats</Card.Title>
+              <Card.Text className="text-center">
                 J'ai réalisé de multiples enquêtes sociologiques auprès de
                 larges échantillons, ce qui m'a permis de développer des
                 compétences en statistiques (avec notamment les moyennes, les
@@ -69,13 +70,13 @@ const Presentation = () => {
           </Card>
         </Col>
         {/* CARD 2 */}
-        <Col className="text-center py-5">
+        <Col className="center-element py-3">
           {" "}
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={datascience} />
             <Card.Body>
-              <Card.Title>Data science</Card.Title>
-              <Card.Text>
+              <Card.Title className="text-center">Data science</Card.Title>
+              <Card.Text className="text-center">
                 La data science constitue la clé pour manipuler et exploiter de
                 grands volumes de données. Avec 3 ans d'expérience en tant que
                 data scientist, je connais tout le cycle de vie de la donnée :
@@ -86,13 +87,13 @@ const Presentation = () => {
           </Card>
         </Col>
         {/* CARD 3 */}
-        <Col className="text-center py-5">
+        <Col className="center-element py-3">
           {" "}
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={python} />
             <Card.Body>
-              <Card.Title>Programmation</Card.Title>
-              <Card.Text>
+              <Card.Title className="text-center">Programmation</Card.Title>
+              <Card.Text className="text-center">
                 Je maîtrise le langage de programmation python non seulement
                 pour l'analyse de données et dans l'élaboration et
                 l'optimisation de modèles de machine learning mais aussi lors de
@@ -181,7 +182,7 @@ const Presentation = () => {
       {/* SECTION 4 */}
       <Row>
         <h1 className="text-center py-5">Mes diplômes et formations 🎓 </h1>
-        <Col className="text-center">
+        <Col className="center-element">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
               <Card.Title>
@@ -205,7 +206,8 @@ const Presentation = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="text-center">
+        <br></br>
+        <Col className="center-element py-3">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
               <Card.Title>
@@ -226,7 +228,8 @@ const Presentation = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="text-center">
+
+        <Col className="center-element py-3">
           <Card style={{ width: "18rem" }}>
             <Card.Body>
               <Card.Title>
@@ -252,6 +255,7 @@ const Presentation = () => {
               </Card.Text>
             </Card.Body>
           </Card>
+          <br></br>
           <br></br>
         </Col>
       </Row>
