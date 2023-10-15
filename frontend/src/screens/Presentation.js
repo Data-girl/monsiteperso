@@ -36,7 +36,7 @@ const Presentation = () => {
 
         <Col xs={12} md={8} className="center-element">
           <p class="text-center">
-            Bienvenue sur ma page personnelle, je m'appelle <b>Jessy PATRICE</b>
+            Bienvenue sur ma page personnelle, je suis <b>Jessy PATRICE</b>
             .
             <br />
             <br />
@@ -66,7 +66,7 @@ const Presentation = () => {
             <Card.Body>
               <Card.Title className="text-center">Math/Stats</Card.Title>
               <Card.Text className="text-center">
-                J'ai réalisé de multiples enquêtes sociologiques auprès de
+                J'ai réalisé trois principales enquêtes sociologiques auprès de
                 larges échantillons, ce qui m'a permis de développer des
                 compétences en statistiques (avec notamment les moyennes, les
                 médianes, la variance, les différentes distributions de
@@ -104,14 +104,15 @@ const Presentation = () => {
                 Je maîtrise le langage de programmation python non seulement
                 pour l'analyse de données et dans l'élaboration et
                 l'optimisation de modèles de machine learning mais aussi lors de
-                la création d'API. Pour mettre en place le backend, j'utilise
-                django et pour le frontend streamlit ou encore react js.
+                la création d'API. Pour mettre en place le backend d'une API,
+                j'utilise django et pour le frontend streamlit ou encore react
+                js.
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-      <h1 className="text-center py-5">Mes expériences professionnelles 💼</h1>
+      <h1 className="text-center py-5">Mes expériences professionnelles💼</h1>
 
       {/* SECTION 3 */}
       <Accordion defaultActiveKey={["0"]} alwaysOpen>
@@ -124,18 +125,15 @@ const Presentation = () => {
           <Accordion.Body>
             J’ai évolué au sein de cette entreprise spécialisée dans l’analyse
             de données avec trois autres collaborateurs, sur un territoire
-            dépourvu d’entreprises proposant des solutions d’analyses de données
-            ou d’IA. L’objectif était d’apporter notre expertise à des
-            entreprises et des organismes dans leur transformation digitale, en
-            les accompagnant dans l’extraction, l’analyse, et l’utilisation de
-            leurs données à des fins utiles pour leurs activités. Au sein de
-            cette structure, mes missions étaient variées et impliquaient
-            notamment d’aller au contact des clients, de recueillir leurs
-            besoins, de définir les objectifs et le plan d’action permettant d’y
-            parvenir dans un temps imparti. Pour ce qui relève de la data
-            science, j’ai été amenée à intervenir sur tout le cycle de vie d’un
-            projet de Machine Learning, c’est-à-dire du recueil des données à la
-            mise en production des modèles.
+            dépourvu d’entreprises proposant des solutions de machine learning.
+            L’objectif était d’apporter notre expertise à des entreprises et des
+            organismes dans leur transformation digitale, en les accompagnant
+            dans l’extraction, l’analyse, et l’utilisation de leurs données à
+            des fins utiles pour leurs activités. Au sein de cette structure,
+            mes missions étaient variées et impliquaient notamment d’aller au
+            contact des clients, de recueillir leurs besoins, de définir les
+            objectifs et le plan d’action permettant d’y parvenir dans un temps
+            imparti.
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -148,7 +146,8 @@ const Presentation = () => {
               (segmentation client, amélioration du système de prêt bancaire)
             </b>
             <br /> Nettoyage, analyse exploratoire, traitement des données,
-            Conception, évaluation et optimisation des modèles.
+            conception, évaluation et optimisation des modèles, dockérisation,
+            déploiement.
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
@@ -163,9 +162,9 @@ const Presentation = () => {
               mise en production d’algorithmes de Machine Learning/Deep
               Learning.
             </b>
-            <br /> Collecte des données, Nettoyage, Analyse exploratoire,
-            feature engineering, Encodage, standardisation, imputation,
-            Conception,évaluation et optimisation des modèles, Versioning,
+            <br /> Collecte des données, nettoyage, analyse exploratoire,
+            feature engineering, encodage, standardisation, imputation,
+            conception,évaluation et optimisation des modèles, versioning,
             testing, dockerisation et mise en production
           </Accordion.Body>
         </Accordion.Item>
@@ -180,8 +179,8 @@ const Presentation = () => {
               d’accroître ses ventes sur une période donnée
             </b>
             <br /> Nettoyage, analyse exploratoire, feature engineering,
-            Dévelopement et optimisation des algorithmes de machine learning,
-            Segmentation client / RFM/ prédiction des ventes / time series
+            dévelopement et optimisation des algorithmes de machine learning,
+            segmentation client / RFM / prédiction des ventes / time series
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

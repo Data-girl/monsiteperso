@@ -31,11 +31,12 @@ const Loisirs = () => {
             <Card.Img variant="top" src={piano2} />
             <Card.Body>
               <br></br>
+              <br></br>
               <Card.Title className="text-center">La musique</Card.Title>
               <Card.Text className="text-center">
                 Je suis passionnée par la musique, particulièrement le chant et
-                le piano que j'ai appris en autodidacte. Je dirige également un
-                groupe virtuel de chants depuis bientôt 3 ans.
+                le piano que j'ai appris en autodidacte. <br></br>Je dirige
+                également un groupe virtuel de chants depuis bientôt 3 ans.
               </Card.Text>
             </Card.Body>
           </Card>

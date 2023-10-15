@@ -136,7 +136,9 @@ const Application = () => {
       </Row>
       <br></br>
       <Row className="center-element py-3">
-        <h1 className="text-center">Acquisition de nouvelles aptitudes✔️</h1>
+        <h1 className="text-center">
+          Acquisition en cours de nouvelles aptitudes✔️
+        </h1>
         <Col>
           <h4 className="text-center">
             {" "}
