@@ -36,8 +36,8 @@ const Presentation = () => {
 
         <Col xs={12} md={8} className="center-element">
           <p class="text-center">
-            Bienvenue sur ma page personnelle, <b> je suis Jessy PATRICE</b>
-            .
+            Bienvenue sur ma page personnelle !<br></br>
+            <b> Je suis Jessy PATRICE.</b>
             <br />
             <br />
             <p className="text-center">

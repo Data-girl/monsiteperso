@@ -54,10 +54,11 @@ const Application = () => {
             </Card.Body>
           </Card>
         </Col>
-
+        <br></br>
+        <br></br>
         {/* CARD 2 */}
 
-        <Col className="center-element">
+        <Col className="center-element py-3">
           <Card style={{ width: "20rem" }}>
             <Card.Img variant="top" src={cancer} />
             <Card.Body>
