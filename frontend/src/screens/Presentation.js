@@ -36,7 +36,7 @@ const Presentation = () => {
 
         <Col xs={12} md={8} className="center-element">
           <p class="text-center">
-            Bienvenue sur ma page personnelle, je suis <b>Jessy PATRICE</b>
+            Bienvenue sur ma page personnelle, <b> je suis Jessy PATRICE</b>
             .
             <br />
             <br />
@@ -119,7 +119,8 @@ const Presentation = () => {
         <Accordion.Item eventKey="0">
           <Accordion.Header>
             <h5>
-              <b>Agence Markétic (Martinique) </b> - Nov 2019 - Juin 2023
+              <b>Data Scientist </b>- Agence Markétic (Martinique){" "}
+              <b>- 3 ans</b>
             </h5>
           </Accordion.Header>
           <Accordion.Body>

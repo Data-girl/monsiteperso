@@ -56,7 +56,8 @@ const Application = () => {
         </Col>
 
         {/* CARD 2 */}
-        <Col className="center-element py-5 ">
+
+        <Col className="center-element">
           <Card style={{ width: "20rem" }}>
             <Card.Img variant="top" src={cancer} />
             <Card.Body>
@@ -79,15 +80,20 @@ const Application = () => {
             </Card.Body>
           </Card>
         </Col>
+      </Row>
+      <Row className="text-center">
+        <Col className="center-element py-5">
+          <h1 className="text-center py-3">Mes compétences techniques ⚙️ </h1>
+        </Col>
+      </Row>
 
-        <h1 className="text-center py-3">Mes compétences techniques ⚙️ </h1>
-
+      <Row>
         <Table
           striped
           bordered
           hover
           variant="light"
-          className="text-center py-3"
+          className=" text-center"
           size="sm"
         >
           <thead>
@@ -134,6 +140,7 @@ const Application = () => {
           </tbody>
         </Table>
       </Row>
+
       <br></br>
       <Row className="center-element py-3">
         <h1 className="text-center">
