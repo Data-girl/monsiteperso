@@ -120,7 +120,7 @@ const Presentation = () => {
           <Accordion.Header>
             <h5>
               <b>Data Scientist </b>- Agence Markétic (Martinique){" "}
-              <b>- 3 ans</b>
+              <b>- 2019-2023</b>
             </h5>
           </Accordion.Header>
           <Accordion.Body>
@@ -139,7 +139,7 @@ const Presentation = () => {
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            <b>Mission 1 : Secteur bancaire (10 mois)</b>
+            <b>Mission 1 : Secteur bancaire (8 mois)</b>
           </Accordion.Header>
           <Accordion.Body>
             <b>
@@ -154,7 +154,7 @@ const Presentation = () => {
         <Accordion.Item eventKey="1">
           <Accordion.Header>
             {" "}
-            <b>Mission 2 : Secteur médical (12 mois)</b>
+            <b>Mission 2 : Secteur médical (10 mois)</b>
           </Accordion.Header>
           <Accordion.Body>
             <b>
@@ -182,6 +182,19 @@ const Presentation = () => {
             <br /> Nettoyage, analyse exploratoire, feature engineering,
             dévelopement et optimisation des algorithmes de machine learning,
             segmentation client / RFM / prédiction des ventes / time series
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="1">
+          <Accordion.Header>
+            {" "}
+            <b>Mission 4 : Secteur de la comptabilité (3 mois)</b>
+          </Accordion.Header>
+          <Accordion.Body>
+            <b>• Conception d'une API de reconnaissance de texte</b>
+            <br /> Reconnaissance et extraction de données à partir de factures
+            au format PDF (nom, date, prix) <br />
+            Entraînement et fine-tuning du modèle d'apprentissage sur les
+            données.
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
@@ -249,7 +262,7 @@ const Presentation = () => {
                 RNCP de niveau 7
               </Card.Title>
               <Card.Subtitle className=" text-center mb-2 text-muted">
-                2022-2023
+                2019-2020
               </Card.Subtitle>
               <Card.Subtitle className="text-center">
                 OPENCLASSROOM en partenariat avec Centrale Supélec
