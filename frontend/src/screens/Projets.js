@@ -97,8 +97,7 @@ const Application = () => {
               <Card.Text>
                 Conçu à partir d'un modèle d'OpenAI et de la librairie
                 Langchain, vous pouvez converser avec ce bot sur des sujets de
-                santé. Il a été entrainé sur des articles extraits du site
-                manger-bouger.fr.
+                santé.
                 <br></br>
                 <br></br>
                 <Button
