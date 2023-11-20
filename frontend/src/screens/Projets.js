@@ -10,6 +10,7 @@ import { useEffect } from "react";
 // Images
 import credit2 from "../medias/credit2.png";
 import cancer from "../medias/cancer.jpeg";
+import conversation from "../medias/conversation.jpg";
 
 const Application = () => {
   // Back to the top when loading page
@@ -24,7 +25,7 @@ const Application = () => {
       <Row className="center-element">
         {" "}
         <Col>
-          <h1 className="text-center py-5">Démos de deux API ⌨️</h1>
+          <h1 className="text-center py-5">Démos de trois API ⌨️</h1>
         </Col>
       </Row>
       <Row className="text-center">
@@ -56,6 +57,7 @@ const Application = () => {
         </Col>
         <br></br>
         <br></br>
+
         {/* CARD 2 */}
 
         <Col className="center-element py-3">
@@ -81,7 +83,36 @@ const Application = () => {
             </Card.Body>
           </Card>
         </Col>
+
+        {/* CARD 3 */}
+
+        <Col className="center-element py-3">
+          <Card style={{ width: "20rem" }}>
+            <Card.Img variant="top" src={conversation} />
+            <Card.Body>
+              <Card.Title>
+                Chatbot spécialisé
+                <br></br>dans les conseils de santé
+              </Card.Title>
+              <Card.Text>
+                Conçu à partir d'un modèle d'OpenAI et de la librairie
+                Langchain, vous pouvez converser avec ce bot sur des sujets de
+                santé. Il a été entrainé sur des articles extraits du site
+                manger-bouger.fr.
+                <br></br>
+                <br></br>
+                <Button
+                  variant="success"
+                  href="https://chatbot-health-883b178801f4.herokuapp.com/"
+                >
+                  Voir la démo
+                </Button>{" "}
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
+
       <Row className="text-center">
         <Col className="center-element py-5">
           <h1 className="text-center py-3">Mes compétences techniques ⚙️ </h1>
