@@ -10,7 +10,7 @@ import { useEffect } from "react";
 // Images
 import credit2 from "../medias/credit2.png";
 import cancer from "../medias/cancer.jpeg";
-import conversation from "../medias/conversation.jpg";
+import conversation from "../medias/conversation.png";
 
 const Application = () => {
   // Back to the top when loading page
@@ -95,9 +95,8 @@ const Application = () => {
                 <br></br>dans les conseils de santé
               </Card.Title>
               <Card.Text>
-                Conçu à partir d'un modèle d'OpenAI et de la librairie
-                Langchain, vous pouvez converser avec ce bot sur des sujets de
-                santé.
+                Conçu à partir d'un LLM et de la librairie Langchain, vous
+                pouvez converser avec ce bot sur des sujets de santé.
                 <br></br>
                 <br></br>
                 <Button
