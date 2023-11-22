@@ -147,7 +147,7 @@ const Application = () => {
             </tr>
             <tr>
               <th>Deep Learning</th>
-              <td>TensorFlow</td>
+              <td>TensorFlow / LLM </td>
             </tr>
             <tr>
               <th>Big data</th>
@@ -160,7 +160,8 @@ const Application = () => {
             <tr>
               <th>CI/CD</th>
               <td>
-                Git / GitHub actions / Docker / Tests unitaires / Azure web app{" "}
+                Git / GitHub actions / Docker / PEP8 (flake8, black, isort) /
+                Test unitaire / Déploiement
               </td>
             </tr>
             <tr>
@@ -183,7 +184,7 @@ const Application = () => {
             🔵 Apprentissage de Réact en cours notamment pour la création de mon
             site personnel
             <br></br>
-            <br></br>🔵 Montée en compétences sur les modèles de LLM
+            <br></br>🔵 Montée en compétences en cours sur les modèles de LLM
             <br></br>
             <br></br>🔵 Formation prévisionnelle de Data engineer
           </h4>

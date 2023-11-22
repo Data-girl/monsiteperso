@@ -193,8 +193,7 @@ const Presentation = () => {
             <b>• Conception d'une API de reconnaissance de texte</b>
             <br /> Reconnaissance et extraction de données à partir de factures
             au format PDF (nom, date, prix) <br />
-            Entraînement et fine-tuning du modèle d'apprentissage sur les
-            données.
+            Entraînement du modèle d'apprentissage sur les factures d'entrée.
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
@@ -262,7 +261,7 @@ const Presentation = () => {
                 RNCP de niveau 7
               </Card.Title>
               <Card.Subtitle className=" text-center mb-2 text-muted">
-                2019-2020
+                2022
               </Card.Subtitle>
               <Card.Subtitle className="text-center">
                 OPENCLASSROOM en partenariat avec Centrale Supélec
